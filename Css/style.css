@@ -127,3 +127,35 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+
+/* Carousel Buttons */
+.carousel-container {
+    position: relative;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--pink);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: var(--peach);
+}
