@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("LifeMate Nippon is ready!");
 });
 
+
 document.addEventListener("DOMContentLoaded", function () {
 
     const slides = document.querySelectorAll(".slide");
-
     let currentSlide = 0;
 
     function showSlide(index) {
@@ -28,6 +28,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         showSlide(currentSlide);
     }
+
+    function prevSlide() {
+        currentSlide--;
+
+        if (currentSlide < 0) {
+            currentSlide = slides.length - 1;
+        }
+
+        showSlide(currentSlide);
+    }
+
+    window.nextSlide = nextSlide;
+    window.prevSlide = prevSlide;
 
     showSlide(currentSlide);
 
