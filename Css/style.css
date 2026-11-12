@@ -1,0 +1,44 @@
+
+/* Color Palette */
+:root {
+    --pink: #FFCED8;
+    --light-pink: #FFDDDD;
+    --cream: #FFF4DE;
+    --peach: #FFE8C4;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cream);
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: var(--pink);
+    padding: 20px 40px;
+    text-align: center;
+}
+
+
+
+/* Main */
+main {
+    padding: 30px;
+    min-height: 80vh;
+}
+
+/* Footer */
+footer {
+    background-color: var(--peach);
+    padding: 20px;
+    text-align: center;
+}
