@@ -233,6 +233,9 @@ main > p {
     border-radius: 15px;
     text-align: center;
     transition: transform 0.3s;
+    text-decoration: none;
+    color: #333;
+    display: block;
 }
 
 .service-card h3 {
@@ -249,5 +252,41 @@ main > p {
 
 .service-card:hover {
     transform: translateY(-5px);
+    background-color: #FFE8C4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Life Guide Details */
+
+#garbage,
+#transport,
+#rules {
+    background-color: #FFF4DE;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border: 1px solid #FFCED8;
+    border-radius: 15px;
+}
+
+#garbage h2,
+#transport h2,
+#rules h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#garbage p,
+#transport p,
+#rules p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
 }
 
