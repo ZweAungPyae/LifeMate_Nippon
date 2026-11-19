@@ -1,0 +1,133 @@
+<mxfile host="65bd71144e">
+    <diagram id="3_mZvkJuZYMZmBFSO1dM" name="ページ-1">
+        <mxGraphModel dx="1269" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;LIFEMATE NIPPON&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="30" width="725" x="280" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="留学生" vertex="1">
+                    <mxGeometry height="60" width="100" x="320" y="121" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ゴミの分別" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="情報を選ぶ" vertex="1">
+                    <mxGeometry height="60" width="120" x="490" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="情報を探す" vertex="1">
+                    <mxGeometry height="60" width="120" x="490" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="情報を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="790" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="生活ガイド" vertex="1">
+                    <mxGeometry height="60" width="120" x="1220" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アルバイトのルールを学ぶ" vertex="1">
+                    <mxGeometry height="60" width="120" x="790" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="アプリを開く" vertex="1">
+                    <mxGeometry height="60" width="120" x="320" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="情報を理解する" vertex="1">
+                    <mxGeometry height="60" width="120" x="950" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="行動する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1290" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ホーム画面を見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="320" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="交通機関を選ぶ" vertex="1">
+                    <mxGeometry height="60" width="120" x="500" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="燃えるゴミ、資源ゴミなどを説明する。" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="日にちによってゴミを捨てる種類をcalenderで確認できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="330" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="色々な言語で確認できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="790" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="優しい日本語で説明する" vertex="1">
+                    <mxGeometry height="60" width="120" x="950" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="電車やバスのスケジュールを確認できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="490" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アルバイトでよく使う日本語" vertex="1">
+                    <mxGeometry height="60" width="120" x="945" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ビジネスマナー" vertex="1">
+                    <mxGeometry height="60" width="120" x="810" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アルバイト募集情報" vertex="1">
+                    <mxGeometry height="60" width="120" x="640" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="日常生活でよく使う日本語" vertex="1">
+                    <mxGeometry height="60" width="120" x="1083" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="病院で使う日本語" vertex="1">
+                    <mxGeometry height="60" width="120" x="970" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="買い物するとき使う日本語" vertex="1">
+                    <mxGeometry height="60" width="120" x="1130" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="民登録や健康保険などを説明する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1270" y="485" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-34" edge="1" parent="1" style="shape=link;html=1;" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <mxPoint x="290" y="370" as="sourcePoint"/>
+                        <mxPoint x="1430" y="368.8" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-35" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="300" y="650" as="sourcePoint"/>
+                        <mxPoint x="1430" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-36" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="290" y="470" as="sourcePoint"/>
+                        <mxPoint x="1430" y="471.45" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-37" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="290" y="560" as="sourcePoint"/>
+                        <mxPoint x="1420" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="アルバイト応募できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="650" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="知りたい日本語を通訳できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="800" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="情報を音声で教えてくれる" vertex="1">
+                    <mxGeometry height="60" width="120" x="963" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="キーワードで情報を検索する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1110" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-44" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;br&gt;ウォーキングスケルトン&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="170" x="110" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-47" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;タスクリスト&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="170" x="110" y="465" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-48" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;通知機能&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="170" x="110" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="JQB4Ih49Ip1xwU75Kiv5-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="必要な手続きを教えてくれる" vertex="1">
+                    <mxGeometry height="60" width="120" x="640" y="290" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
