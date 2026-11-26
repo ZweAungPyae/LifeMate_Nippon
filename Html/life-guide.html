@@ -1,262 +1,317 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Life Guide | LifeMate Nippon</title>
-    <link rel="stylesheet" href="../Css/style.css">
-</head>
-<body>
-
-
-<header class="header">
-    <div class="logo">
+    <link rel="stylesheet" href="../Css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
         <h1>LifeMate Nippon</h1>
-    </div>
+      </div>
 
-    <nav class="nav">
+      <nav class="nav">
         <ul>
-            <li><a href="index.html" data-i18n="navHome">ホーム</a></li>
-            <li><a href="introduction.html" data-i18n="navIntroduction">紹介</a></li>
-            <li><a href="life-guide.html" data-i18n="navLifeGuide">生活ガイド</a></li>
-            <li><a href="japanese.html" data-i18n="navJapanese">日本語学習</a></li>
-            <li><a href="jobs.html" data-i18n="navJobs">アルバイト</a></li>
-            <li><a href="contact.html" data-i18n="navContact">お問い合わせ</a></li>
+          <li><a href="index.html" data-i18n="navHome">ホーム</a></li>
+          <li>
+            <a href="introduction.html" data-i18n="navIntroduction">紹介</a>
+          </li>
+          <li>
+            <a href="life-guide.html" data-i18n="navLifeGuide">生活ガイド</a>
+          </li>
+          <li>
+            <a href="japanese.html" data-i18n="navJapanese">日本語学習</a>
+          </li>
+          <li><a href="jobs.html" data-i18n="navJobs">アルバイト</a></li>
+          <li>
+            <a href="contact.html" data-i18n="navContact">お問い合わせ</a>
+          </li>
 
-            <li>
-                <select id="languageSelect" aria-label="Select language">
-                    <option value="ja">日本語</option>
-                    <option value="my">မြန်မာ</option>
-                    <option value="en">English</option>
-                </select>
-            </li>
+          <li>
+            <select id="languageSelect" aria-label="Select language">
+              <option value="ja">日本語</option>
+              <option value="my">မြန်မာ</option>
+              <option value="en">English</option>
+            </select>
+          </li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
+    <main>
+      <h2 data-i18n="lifePageTitle">生活ガイド</h2>
 
-    
+      <p data-i18n="lifePageDescription">
+        日本で生活するために必要な情報を紹介します。
+      </p>
 
-<main>
-    <h2>生活ガイド</h2>
-    <p>日本で生活するために必要な情報を紹介します。</p>
+      <!-- Life Guide Cards -->
 
-    <!-- Life Guide Cards -->
-    <section class="service-container">
-
+      <!-- Life Guide Cards -->
+      <section class="service-container">
         <a href="#garbage" class="service-card">
-            <h3>ゴミの分別</h3>
-            <p>ゴミの種類・分別方法・収集日・正しい出し方</p>
+          <h3 data-i18n="garbageCardTitle">ゴミの分別</h3>
+          <p data-i18n="garbageCardDescription">
+            ゴミの種類・分別方法・収集日・正しい出し方
+          </p>
         </a>
 
         <a href="#transport" class="service-card">
-            <h3>交通・電車</h3>
-            <p>電車やバスの利用方法について</p>
+          <h3 data-i18n="transportCardTitle">交通・電車</h3>
+          <p data-i18n="transportCardDescription">
+            電車やバスの利用方法について
+          </p>
         </a>
 
         <a href="#rules" class="service-card">
-            <h3>生活ルール</h3>
-            <p>日本で生活するときの基本ルール</p>
+          <h3 data-i18n="rulesCardTitle">生活ルール</h3>
+          <p data-i18n="rulesCardDescription">日本で生活するときの基本ルール</p>
         </a>
+      </section>
 
-    </section>
+      <!-- Garbage Guide -->
 
-    <!-- Garbage Guide -->
-    <section id="garbage" class="guide-section">
-        <h2>ゴミの分別と正しい出し方</h2>
+      <!-- Garbage Guide -->
+      <section id="garbage" class="guide-section">
+        <h2 data-i18n="garbageHeading">ゴミの分別と正しい出し方</h2>
 
-        <p>
-            日本では、ゴミの種類によって分別方法や収集日、
-            指定袋が決められています。
-            ルールを守って正しくゴミを出しましょう。
+        <p data-i18n="garbageIntro">
+          日本では、ゴミの種類によって分別方法や収集日、指定袋が決められています。ルールを守って正しくゴミを出しましょう。
         </p>
 
         <div class="garbage-list">
+          <div class="garbage-item">
+            <h3 data-i18n="burnableTitle">燃やすごみ</h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="burnableExamples">
+              生ゴミ、汚れた紙、リサイクルできない紙類など。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="burnablePreparation">
+              生ゴミは水をよく切り、自治体のルールに従って出します。
+            </p>
+          </div>
 
-            <div class="garbage-item">
-                <h3>燃やすごみ</h3>
-                <p><strong>主な例：</strong></p>
-                <p>生ゴミ、汚れた紙、リサイクルできない紙類など。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>生ゴミは水をよく切り、自治体のルールに従って出します。</p>
-            </div>
+          <div class="garbage-item">
+            <h3 data-i18n="recyclableTitle">
+              資源ごみ（缶・びん・ペットボトル）
+            </h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="recyclableExamples">
+              飲料用の缶、ガラスびん、飲料用ペットボトル。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="recyclablePreparation">
+              中身を空にして軽くすすぎ、種類ごとに分けます。キャップやラベルの扱いも自治体のルールを確認してください。
+            </p>
+          </div>
 
-            <div class="garbage-item">
-                <h3>資源ごみ（缶・びん・ペットボトル）</h3>
-                <p><strong>主な例：</strong></p>
-                <p>飲料用の缶、ガラスびん、飲料用ペットボトル。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>中身を空にして軽くすすぎ、種類ごとに分けます。キャップやラベルの扱いも自治体のルールを確認してください。</p>
-            </div>
+          <div class="garbage-item">
+            <h3 data-i18n="plasticTitle">プラスチック製容器包装</h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="plasticExamples">
+              食品トレー、お菓子の袋、シャンプーの容器、商品の包装など。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="plasticPreparation">
+              汚れを拭き取るか水ですすぎ、自治体のルールに従って分別します。
+            </p>
+          </div>
 
-            <div class="garbage-item">
-                <h3>プラスチック製容器包装</h3>
-                <p><strong>主な例：</strong></p>
-                <p>食品トレー、お菓子の袋、シャンプーの容器、商品の包装など。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>汚れを拭き取るか水ですすぎ、自治体のルールに従って分別します。</p>
-            </div>
+          <div class="garbage-item">
+            <h3 data-i18n="paperTitle">リサイクルできる紙類</h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="paperExamples">
+              新聞、段ボール、雑誌、チラシ、紙箱など。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="paperPreparation">
+              種類ごとに分け、ひもでまとめるなど、指定された方法で出します。
+            </p>
+          </div>
 
-            <div class="garbage-item">
-                <h3>リサイクルできる紙類</h3>
-                <p><strong>主な例：</strong></p>
-                <p>新聞、段ボール、雑誌、チラシ、紙箱など。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>種類ごとに分け、ひもでまとめるなど、指定された方法で出します。</p>
-            </div>
+          <div class="garbage-item">
+            <h3 data-i18n="metalTitle">小型金属類・スプレー缶</h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="metalExamples">
+              鍋、やかん、小さな金属製品、スプレー缶など。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="metalPreparation">
+              自治体の指定する方法で出します。スプレー缶は火気のない場所で中身を使い切り、穴を開けずに出してください。
+            </p>
+          </div>
 
-            <div class="garbage-item">
-                <h3>小型金属類・スプレー缶</h3>
-                <p><strong>主な例：</strong></p>
-                <p>鍋、やかん、小さな金属製品、スプレー缶など。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>自治体の指定する方法で出します。スプレー缶は火気のない場所で中身を使い切り、穴を開けずに出してください。</p>
-            </div>
-
-            <div class="garbage-item">
-                <h3>大型ごみ</h3>
-                <p><strong>主な例：</strong></p>
-                <p>机、棚、ベッド、自転車などの大きな家具・用品。</p>
-                <p><strong>出す前の準備：</strong></p>
-                <p>事前申し込みや処理手数料が必要な場合があります。自治体の案内を確認してください。</p>
-            </div>
-
+          <div class="garbage-item">
+            <h3 data-i18n="largeGarbageTitle">大型ごみ</h3>
+            <p><strong data-i18n="mainExamples">主な例：</strong></p>
+            <p data-i18n="largeGarbageExamples">
+              机、棚、ベッド、自転車などの大きな家具・用品。
+            </p>
+            <p><strong data-i18n="preparation">出す前の準備：</strong></p>
+            <p data-i18n="largeGarbagePreparation">
+              事前申し込みや処理手数料が必要な場合があります。自治体の案内を確認してください。
+            </p>
+          </div>
         </div>
 
-        <h3>ゴミを出すときの重要なポイント</h3>
+        <h3 data-i18n="garbagePointsTitle">ゴミを出すときの重要なポイント</h3>
 
         <div class="rules-list">
+          <div class="rules-item">
+            <h3 data-i18n="garbagePoint1Title">① 収集日を確認する</h3>
+            <p data-i18n="garbagePoint1">
+              ゴミの種類によって収集日が異なります。自治体の収集カレンダーを確認しましょう。
+            </p>
+          </div>
 
-            <div class="rules-item">
-                <h3>① 収集日を確認する</h3>
-                <p>ゴミの種類によって収集日が異なります。自治体の収集カレンダーを確認しましょう。</p>
-            </div>
+          <div class="rules-item">
+            <h3 data-i18n="garbagePoint2Title">② 指定された袋を使う</h3>
+            <p data-i18n="garbagePoint2">
+              地域によって指定袋や使用できる袋が異なります。住んでいる地域のルールに従いましょう。
+            </p>
+          </div>
 
-            <div class="rules-item">
-                <h3>② 指定された袋を使う</h3>
-                <p>地域によって指定袋や使用できる袋が異なります。住んでいる地域のルールに従いましょう。</p>
-            </div>
+          <div class="rules-item">
+            <h3 data-i18n="garbagePoint3Title">③ 決められた場所に出す</h3>
+            <p data-i18n="garbagePoint3">
+              アパートやマンションでは、指定されたゴミ置き場を使用してください。
+            </p>
+          </div>
 
-            <div class="rules-item">
-                <h3>③ 決められた場所に出す</h3>
-                <p>アパートやマンションでは、指定されたゴミ置き場を使用してください。</p>
-            </div>
-
-            <div class="rules-item">
-                <h3>④ 電池・充電池は別にする</h3>
-                <p>リチウムイオン電池や充電式電池は、火災の原因になることがあります。普通のゴミに混ぜず、指定された回収場所に出してください。</p>
-            </div>
-
+          <div class="rules-item">
+            <h3 data-i18n="garbagePoint4Title">④ 電池・充電池は別にする</h3>
+            <p data-i18n="garbagePoint4">
+              リチウムイオン電池や充電式電池は、火災の原因になることがあります。普通のゴミに混ぜず、指定された回収場所に出してください。
+            </p>
+          </div>
         </div>
 
-        <p class="important">
-            ※ ゴミの分別方法、指定袋、収集日、出す場所は市区町村によって異なります。
-            引っ越しをしたときは、必ず新しい住所の自治体のルールを確認してください。
+        <p class="important" data-i18n="garbageWarning">
+          ※
+          ゴミの分別方法、指定袋、収集日、出す場所は市区町村によって異なります。引っ越しをしたときは、必ず新しい住所の自治体のルールを確認してください。
         </p>
 
         <p>
-    <strong>京都市に住んでいる方：</strong>
-    ごみの分別方法や収集日を確認できます。
-    <a href="https://kogomi.city.kyoto.lg.jp/citizens/"
-       target="_blank"
-       rel="noopener noreferrer">
-        京都こごみネット
-    </a>
-</p>
-    </section>
+          <strong data-i18n="kyotoResidents">京都市に住んでいる方：</strong>
+          <span data-i18n="kyotoGarbageInfo"
+            >ごみの分別方法や収集日を確認できます。</span
+          >
+          <a
+            href="https://kogomi.city.kyoto.lg.jp/citizens/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="kyotoGarbageLink"
+          >
+            京都こごみネット
+          </a>
+        </p>
+      </section>
 
-    <!-- Transportation Guide -->
-   
+      <!-- Transportation Guide -->
+
+      <!-- Transportation Guide -->
+      
 <!-- Transportation Guide -->
 <section id="transport" class="guide-section">
-    <h2>交通・電車の利用方法</h2>
 
-    <p>
-        日本では電車やバスが日常生活の重要な交通手段です。
-        乗車方法、運賃の支払い、乗り換え方法を確認して、
-        安全でスムーズに移動しましょう。
+    <h2 data-i18n="transportHeading">交通・電車の利用方法</h2>
+
+    <p data-i18n="transportIntro">
+        日本では電車やバスが日常生活の重要な交通手段です。乗車方法、運賃の支払い、乗り換え方法を確認して、安全でスムーズに移動しましょう。
     </p>
 
     <div class="transport-list">
 
         <div class="transport-item">
-            <h3>電車の乗り方・ICカードの使い方</h3>
-            <p><strong>利用できるICカード：</strong></p>
-            <p>ICOCA、Suica、PASMOなどの交通系ICカードが利用できます。</p>
-            <p><strong>利用方法：</strong></p>
-            <p>
+            <h3 data-i18n="trainTitle">電車の乗り方・ICカードの使い方</h3>
+
+            <p><strong data-i18n="icCardAvailable">利用できるICカード：</strong></p>
+            <p data-i18n="icCardExamples">ICOCA、Suica、PASMOなどの交通系ICカードが利用できます。</p>
+
+            <p><strong data-i18n="howToUse">利用方法：</strong></p>
+            <p data-i18n="icCardSteps">
                 ① 駅の券売機などでICカードを購入・チャージします。
                 ② 改札機の読み取り部分にカードをタッチします。
                 ③ 降りる駅でも同じカードをタッチします。
                 ④ 残高が不足している場合は、チャージまたは精算してください。
             </p>
+
             <p>
-                詳しい使い方：
+                <span data-i18n="detailedGuide">詳しい使い方：</span>
                 <a href="https://www.jr-odekake.net/icoca/guide/"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="icocaLink">
                     JR西日本 ICOCA公式ガイド
                 </a>
             </p>
         </div>
 
         <div class="transport-item">
-            <h3>電車の乗り換え方法</h3>
-            <p><strong>乗り換え前に確認すること：</strong></p>
-            <p>
+            <h3 data-i18n="transferTitle">電車の乗り換え方法</h3>
+
+            <p><strong data-i18n="beforeTransfer">乗り換え前に確認すること：</strong></p>
+            <p data-i18n="transferChecklist">
                 ・乗り換える駅の名前
                 ・利用する路線とホーム番号
                 ・電車の行き先と出発時刻
             </p>
-            <p>
-                駅の案内表示や乗換案内アプリを確認し、
-                乗り換え時間に余裕を持って移動しましょう。
+
+            <p data-i18n="transferAdvice">
+                駅の案内表示や乗換案内アプリを確認し、乗り換え時間に余裕を持って移動しましょう。
             </p>
         </div>
 
         <div class="transport-item">
-            <h3>京都市バスの乗り方</h3>
-            <p><strong>乗車前：</strong></p>
-            <p>
-                バスの系統番号、行き先、乗車する停留所を確認します。
-                乗車方法はバスの種類や系統によって異なります。
+            <h3 data-i18n="kyotoBusTitle">京都市バスの乗り方</h3>
+
+            <p><strong data-i18n="beforeBoarding">乗車前：</strong></p>
+            <p data-i18n="busBefore">
+                バスの系統番号、行き先、乗車する停留所を確認します。乗車方法はバスの種類や系統によって異なります。
             </p>
-            <p><strong>乗車中：</strong></p>
-            <p>
-                車内アナウンスと案内表示を確認し、
-                降りる停留所が近づいたら降車ボタンを押します。
+
+            <p><strong data-i18n="onBus">乗車中：</strong></p>
+            <p data-i18n="busDuring">
+                車内アナウンスと案内表示を確認し、降りる停留所が近づいたら降車ボタンを押します。
             </p>
-            <p><strong>運賃の支払い：</strong></p>
-            <p>
-                現金やICOCAなどのICカードが利用できます。
-                支払い方法と乗車・降車口は、車内や公式案内で確認してください。
+
+            <p><strong data-i18n="busPayment">運賃の支払い：</strong></p>
+            <p data-i18n="busPaymentInfo">
+                現金やICOCAなどのICカードが利用できます。支払い方法と乗車・降車口は、車内や公式案内で確認してください。
             </p>
+
             <p>
-                詳しい乗り方：
+                <span data-i18n="detailedGuide">詳しい乗り方：</span>
                 <a href="https://www.city.kyoto.lg.jp/kotsu/page/0000324695.html"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="kyotoBusLink">
                     京都市バス公式ガイド
                 </a>
             </p>
         </div>
 
         <div class="transport-item">
-            <h3>時刻表・最終電車の確認</h3>
-            <p><strong>出発前に確認すること：</strong></p>
-            <p>
+            <h3 data-i18n="timetableTitle">時刻表・最終電車の確認</h3>
+
+            <p><strong data-i18n="beforeDeparture">出発前に確認すること：</strong></p>
+            <p data-i18n="timetableChecklist">
                 ・電車やバスの出発時刻
                 ・乗り換えに必要な時間
                 ・最終電車・最終バスの時刻
                 ・運休や遅延などの運行情報
             </p>
-            <p>
-                帰宅が遅くなる場合は、最終電車の時刻を事前に確認し、
-                帰宅方法を考えておきましょう。
+
+            <p data-i18n="lastTrainAdvice">
+                帰宅が遅くなる場合は、最終電車の時刻を事前に確認し、帰宅方法を考えておきましょう。
             </p>
+
             <p>
-                京都市内の経路・時刻検索：
+                <span data-i18n="routeSearch">京都市内の経路・時刻検索：</span>
                 <a href="https://www2.city.kyoto.lg.jp/kotsu/webguide/ja/comm/route_and_time.html"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="routeSearchLink">
                     京都市交通局 経路検索・時刻表
                 </a>
             </p>
@@ -264,134 +319,134 @@
 
     </div>
 
-    <p class="important">
-        ※ 電車やバスの運賃、乗車方法、運行時間は路線や事業者によって異なります。
-        利用する前に公式サイトや駅・停留所の案内を確認してください。
+    <p class="important" data-i18n="transportWarning">
+        ※ 電車やバスの運賃、乗車方法、運行時間は路線や事業者によって異なります。利用する前に公式サイトや駅・停留所の案内を確認してください。
     </p>
+
 </section>
 
+      <!-- Daily Life Rules -->
 
-    <!-- Daily Life Rules -->
-   
+      
 <!-- Daily Life Rules -->
 <section id="rules" class="guide-section">
-    <h2>日本での生活ルール</h2>
 
-    <p>
-        日本で安心して生活するためには、
-        住居、交通、防災、医療などの基本的なルールを
-        理解しておくことが大切です。
+    <h2 data-i18n="rulesHeading">日本での生活ルール</h2>
+
+    <p data-i18n="rulesIntro">
+        日本で安心して生活するためには、住居、交通、防災、医療などの基本的なルールを理解しておくことが大切です。
     </p>
 
     <div class="rules-list">
 
         <div class="rules-item">
-            <h3>住居・賃貸ルール</h3>
-            <p><strong>契約内容を確認する：</strong></p>
-            <p>
-                部屋を借りるときは、家賃、管理費、契約期間、
-                退去時の費用などを確認しましょう。
+            <h3 data-i18n="housingTitle">住居・賃貸ルール</h3>
+
+            <p><strong data-i18n="contractCheck">契約内容を確認する：</strong></p>
+            <p data-i18n="contractInfo">
+                部屋を借りるときは、家賃、管理費、契約期間、退去時の費用などを確認しましょう。
             </p>
-            <p><strong>ゴミ・共用スペース：</strong></p>
-            <p>
-                建物ごとに決められたゴミ出しの場所や時間を守り、
-                廊下や階段などの共用スペースに私物を置かないようにしましょう。
+
+            <p><strong data-i18n="garbageShared">ゴミ・共用スペース：</strong></p>
+            <p data-i18n="garbageSharedInfo">
+                建物ごとに決められたゴミ出しの場所や時間を守り、廊下や階段などの共用スペースに私物を置かないようにしましょう。
             </p>
-            <p><strong>引っ越しするとき：</strong></p>
-            <p>
-                退去する場合は、契約書を確認して、
-                大家さんや管理会社に早めに連絡しましょう。
+
+            <p><strong data-i18n="movingOut">引っ越しするとき：</strong></p>
+            <p data-i18n="movingOutInfo">
+                退去する場合は、契約書を確認して、大家さんや管理会社に早めに連絡しましょう。
             </p>
         </div>
 
         <div class="rules-item">
-            <h3>騒音・近隣マナー</h3>
-            <p><strong>生活音に注意する：</strong></p>
-            <p>
-                夜間や早朝は、大きな声での会話、
-                音楽、テレビ、洗濯機などの音に気をつけましょう。
+            <h3 data-i18n="noiseTitle">騒音・近隣マナー</h3>
+
+            <p><strong data-i18n="noiseCare">生活音に注意する：</strong></p>
+            <p data-i18n="noiseCareInfo">
+                夜間や早朝は、大きな声での会話、音楽、テレビ、洗濯機などの音に気をつけましょう。
             </p>
-            <p><strong>近所の人との関係：</strong></p>
-            <p>
-                近所の人に会ったら挨拶をしましょう。
-                地域のルールや建物の決まりを守り、
-                お互いに気持ちよく生活できるようにしましょう。
+
+            <p><strong data-i18n="neighborRelations">近所の人との関係：</strong></p>
+            <p data-i18n="neighborRelationsInfo">
+                近所の人に会ったら挨拶をしましょう。地域のルールや建物の決まりを守り、お互いに気持ちよく生活できるようにしましょう。
             </p>
         </div>
 
         <div class="rules-item">
-            <h3>自転車の交通ルール</h3>
-            <p><strong>基本的なルール：</strong></p>
-            <p>
-                自転車は原則として車道の左側を通行します。
-                信号を守り、一時停止の標識がある場所では
-                必ず停止して安全を確認しましょう。
+            <h3 data-i18n="bicycleTitle">自転車の交通ルール</h3>
+
+            <p><strong data-i18n="basicBicycleRules">基本的なルール：</strong></p>
+            <p data-i18n="basicBicycleInfo">
+                自転車は原則として車道の左側を通行します。信号を守り、一時停止の標識がある場所では必ず停止して安全を確認しましょう。
             </p>
-            <p><strong>安全に乗るために：</strong></p>
-            <p>
-                夜間はライトを点灯し、ヘルメットを着用しましょう。
-                スマートフォンを操作しながらの運転や、
-                飲酒運転は禁止されています。
+
+            <p><strong data-i18n="bicycleSafety">安全に乗るために：</strong></p>
+            <p data-i18n="bicycleSafetyInfo">
+                夜間はライトを点灯し、ヘルメットを着用しましょう。スマートフォンを操作しながらの運転や、飲酒運転は禁止されています。
             </p>
-            <p><strong>駐輪するとき：</strong></p>
-            <p>
-                自転車は指定された駐輪場に止めましょう。
-                道路や歩道に放置すると、撤去される場合があります。
+
+            <p><strong data-i18n="bicycleParking">駐輪するとき：</strong></p>
+            <p data-i18n="bicycleParkingInfo">
+                自転車は指定された駐輪場に止めましょう。道路や歩道に放置すると、撤去される場合があります。
             </p>
+
             <p>
-                詳しい交通ルール：
+                <span data-i18n="trafficDetails">詳しい交通ルール：</span>
                 <a href="https://www.npa.go.jp/english/bureau/traffic/"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="policeTrafficLink">
                     警察庁 Traffic Rules
                 </a>
             </p>
         </div>
 
         <div class="rules-item">
-            <h3>防災・緊急時の対応</h3>
-            <p><strong>地震・台風への備え：</strong></p>
-            <p>
-                飲料水、非常食、懐中電灯、モバイルバッテリーなどを
-                準備しておきましょう。
+            <h3 data-i18n="disasterTitle">防災・緊急時の対応</h3>
+
+            <p><strong data-i18n="earthquakeTyphoon">地震・台風への備え：</strong></p>
+            <p data-i18n="disasterPreparation">
+                飲料水、非常食、懐中電灯、モバイルバッテリーなどを準備しておきましょう。
             </p>
-            <p><strong>避難場所の確認：</strong></p>
-            <p>
-                自宅や学校の近くにある避難場所と避難経路を
-                事前に確認しておきましょう。
+
+            <p><strong data-i18n="evacuationTitle">避難場所の確認：</strong></p>
+            <p data-i18n="evacuationInfo">
+                自宅や学校の近くにある避難場所と避難経路を事前に確認しておきましょう。
             </p>
-            <p><strong>緊急連絡先：</strong></p>
-            <p>
-                火事・救急車：119
-                <br>
+
+            <p><strong data-i18n="emergencyContacts">緊急連絡先：</strong></p>
+            <p data-i18n="emergencyNumbers">
+                火事・救急車：119<br>
                 警察：110
             </p>
+
             <p>
-                外国人向け防災情報：
+                <span data-i18n="disasterDetails">外国人向け防災情報：</span>
                 <a href="https://www.kcif.or.jp/web/jp/disasterprevention/"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="kyotoDisasterLink">
                     京都市国際交流協会 防災情報
                 </a>
             </p>
         </div>
 
         <div class="rules-item">
-            <h3>医療・健康保険</h3>
-            <p><strong>健康保険について：</strong></p>
-            <p>
-                日本に住む外国人は、在留資格や勤務状況などの条件に応じて、
-                公的医療保険への加入手続きが必要になります。
-                自分の加入状況を確認しましょう。
+            <h3 data-i18n="medicalTitle">医療・健康保険</h3>
+
+            <p><strong data-i18n="insuranceTitle">健康保険について：</strong></p>
+            <p data-i18n="insuranceInfo">
+                日本に住む外国人は、在留資格や勤務状況などの条件に応じて、公的医療保険への加入手続きが必要になります。自分の加入状況を確認しましょう。
             </p>
-            <p><strong>病院を利用するとき：</strong></p>
-            <p>
-                病院へ行くときは、健康保険の資格を確認できるものを
-                持参しましょう。
-                外国語対応の医療機関も事前に調べておくと安心です。
+
+            <p><strong data-i18n="hospitalTitle">病院を利用するとき：</strong></p>
+            <p data-i18n="hospitalInfo">
+                病院へ行くときは、健康保険の資格を確認できるものを持参しましょう。外国語対応の医療機関も事前に調べておくと安心です。
             </p>
+
             <p>
-                京都での生活・医療情報：
+                <span data-i18n="medicalDetails">京都での生活・医療情報：</span>
                 <a href="https://www.kcif.or.jp/web/jp/livingguide/"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="kyotoLivingLink">
                     京都市国際交流協会 生活ガイド
                 </a>
             </p>
@@ -399,21 +454,17 @@
 
     </div>
 
-    <p class="important">
-        ※ 住居の契約内容、地域のルール、交通規則、
-        医療保険の加入条件などは、それぞれの状況によって異なります。
-        必ず公式情報や契約書を確認してください。
+    <p class="important" data-i18n="rulesWarning">
+        ※ 住居の契約内容、地域のルール、交通規則、医療保険の加入条件などは、それぞれの状況によって異なります。必ず公式情報や契約書を確認してください。
     </p>
 
 </section>
 
-</main>
-
-
+    </main>
 
     <footer>
-        <p>&copy; 2026 LIFEMATE_NIPPON. All rights reserved.</p>
+      <p>&copy; 2026 LIFEMATE_NIPPON. All rights reserved.</p>
     </footer>
-<script src="../Js/language.js"></script>
-</body>
+    <script src="../Js/language.js"></script>
+  </body>
 </html>
