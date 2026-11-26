@@ -16,142 +16,150 @@
 
         <nav class="nav">
             <ul>
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="introduction.html">Introduction</a></li>
-                <li><a href="life-guide.html">生活ガイド</a></li>
-                <li><a href="japanese.html">日本語学習</a></li>
-                <li><a href="jobs.html">アルバイト</a></li>
-                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="index.html" data-i18n="navHome">ホーム</a></li>
+                <li><a href="introduction.html" data-i18n="navIntroduction">紹介</a></li>
+                <li><a href="life-guide.html" data-i18n="navLifeGuide">生活ガイド</a></li>
+                <li><a href="japanese.html" data-i18n="navJapanese">日本語学習</a></li>
+                <li><a href="jobs.html" data-i18n="navJobs">アルバイト</a></li>
+                <li><a href="contact.html" data-i18n="navContact">お問い合わせ</a></li>
+
+                <li>
+                    <select id="languageSelect" aria-label="Select language">
+                        <option value="ja">日本語</option>
+                        <option value="my">မြန်မာ</option>
+                        <option value="en">English</option>
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>日本語学習</h2>
-        <p>日本での生活に役立つ日本語を学びましょう。</p>
+        <h2 data-i18n="japanesePageTitle">日本語学習</h2>
+        <p data-i18n="japanesePageDescription">
+            日本での生活に役立つ日本語を学びましょう。
+        </p>
 
         <section class="service-container">
-<a href="#vocabulary" class="service-card">
-    <h3>Vocabulary</h3>
-    <h3>日本語の単語</h3>
-    <p>Learn useful Japanese words.</p>
-</a>
+
+            <a href="#vocabulary" class="service-card">
+                <h3 data-i18n="vocabularyTitle">Vocabulary</h3>
+                <p data-i18n="vocabularyDescription">Learn useful Japanese words.</p>
+            </a>
+
             <a href="#daily" class="service-card">
-                <h3>Daily Japanese</h3>
-                <h3>日常会話</h3>
-                <p>Learn Japanese for daily conversations.</p>
+                <h3 data-i18n="dailyTitle">Daily Japanese</h3>
+                <p data-i18n="dailyDescription">Learn Japanese for daily conversations.</p>
             </a>
 
             <a href="#school" class="service-card">
-                <h3>School Japanese</h3>
-                <h3>学校で使う日本語</h3>
-                <p>Useful Japanese expressions at school.</p>
+                <h3 data-i18n="schoolTitle">School Japanese</h3>
+                <p data-i18n="schoolDescription">Useful Japanese expressions at school.</p>
             </a>
 
             <a href="#work" class="service-card">
-                <h3>Work Japanese</h3>
-                <h3>仕事で使う日本語</h3>
-                <p>Japanese expressions for working in Japan.</p>
+                <h3 data-i18n="workTitle">Work Japanese</h3>
+                <p data-i18n="workDescription">Japanese expressions for working in Japan.</p>
             </a>
 
         </section>
 
-<section id="vocabulary" class="guide-section">
-    <h2>基本的な日本語の単語</h2>
-    <p>日常生活でよく使う日本語の単語を覚えましょう。</p>
+        <section id="vocabulary" class="guide-section">
+            <h2 data-i18n="vocabularyHeading">基本的な日本語の単語</h2>
+            <p data-i18n="vocabularyIntro">日常生活でよく使う日本語の単語を覚えましょう。</p>
 
-    <div class="rules-list">
+            <div class="rules-list">
 
-        <div class="rules-item">
-            <h3>学校（がっこう）</h3>
-            <p>English :school</p>
-        </div>
+                <div class="rules-item">
+                    <h3>学校（がっこう）</h3>
+                    <p data-i18n="wordSchool">English: school</p>
+                </div>
 
-        <div class="rules-item">
-            <h3>先生（せんせい）</h3>
-            <p>English: teacher</p>
-        </div>
+                <div class="rules-item">
+                    <h3>先生（せんせい）</h3>
+                    <p data-i18n="wordTeacher">English: teacher</p>
+                </div>
 
-        <div class="rules-item">
-            <h3>友達（ともだち）</h3>
-            <p>English  : friend</p>
-        </div>
+                <div class="rules-item">
+                    <h3>友達（ともだち）</h3>
+                    <p data-i18n="wordFriend">English: friend</p>
+                </div>
 
-        <div class="rules-item">
-            <h3>仕事（しごと）</h3>
-            <p>English : job</p>
-        </div>
+                <div class="rules-item">
+                    <h3>仕事（しごと）</h3>
+                    <p data-i18n="wordJob">English: job</p>
+                </div>
 
-        <div class="rules-item">
-            <h3>時間（じかん）</h3>
-            <p>English : time</p>
-        </div>
+                <div class="rules-item">
+                    <h3>時間（じかん）</h3>
+                    <p data-i18n="wordTime">English: time</p>
+                </div>
 
-        <div class="rules-item">
-            <h3>電車（でんしゃ）</h3>
-            <p>English : train</p>
-        </div>
+                <div class="rules-item">
+                    <h3>電車（でんしゃ）</h3>
+                    <p data-i18n="wordTrain">English: train</p>
+                </div>
 
-    </div>
-</section>
+            </div>
+        </section>
 
         <section id="daily" class="guide-section">
-            <h2>日常会話</h2>
-            <p>毎日の生活でよく使う日本語です。</p>
+            <h2 data-i18n="dailyHeading">日常会話</h2>
+            <p data-i18n="dailyIntro">毎日の生活でよく使う日本語です。</p>
 
             <div class="rules-list">
                 <div class="rules-item">
                     <h3>おはようございます</h3>
-                    <p>Good morning</p>
+                    <p data-i18n="goodMorning">Good morning</p>
                 </div>
 
                 <div class="rules-item">
                     <h3>ありがとうございます</h3>
-                    <p>Thank you</p>
+                    <p data-i18n="thankYou">Thank you</p>
                 </div>
 
                 <div class="rules-item">
                     <h3>すみません</h3>
-                    <p>Excuse me / Sorry</p>
+                    <p data-i18n="excuseMe">Excuse me / Sorry</p>
                 </div>
 
                 <div class="rules-item">
                     <h3>お願いします</h3>
-                    <p>Please</p>
+                    <p data-i18n="please">Please</p>
                 </div>
             </div>
         </section>
 
         <section id="school" class="guide-section">
-            <h2>学校で使う日本語</h2>
-            <p>学校で先生や友達と話すときに使います。</p>
+            <h2 data-i18n="schoolHeading">学校で使う日本語</h2>
+            <p data-i18n="schoolIntro">学校で先生や友達と話すときに使います。</p>
 
             <div class="rules-list">
                 <div class="rules-item">
                     <h3>もう一度お願いします。</h3>
-                    <p>Please say it one more time.</p>
+                    <p data-i18n="oneMoreTime">Please say it one more time.</p>
                 </div>
 
                 <div class="rules-item">
                     <h3>質問があります。</h3>
-                    <p>I have a question.</p>
+                    <p data-i18n="haveQuestion">I have a question.</p>
                 </div>
             </div>
         </section>
 
         <section id="work" class="guide-section">
-            <h2>仕事で使う日本語</h2>
-            <p>アルバイトや仕事で使う日本語です。</p>
+            <h2 data-i18n="workHeading">仕事で使う日本語</h2>
+            <p data-i18n="workIntro">アルバイトや仕事で使う日本語です。</p>
 
             <div class="rules-list">
                 <div class="rules-item">
                     <h3>お疲れ様です。</h3>
-                    <p>Thank you for your hard work.</p>
+                    <p data-i18n="otsukaresama">Thank you for your hard work.</p>
                 </div>
 
                 <div class="rules-item">
                     <h3>確認します。</h3>
-                    <p>I will check.</p>
+                    <p data-i18n="confirm">I will check.</p>
                 </div>
             </div>
         </section>
@@ -162,5 +170,6 @@
         <p>&copy; 2026 LIFEMATE_NIPPON. All rights reserved.</p>
     </footer>
 
+    <script src="../Js/language.js"></script>
 </body>
 </html>
